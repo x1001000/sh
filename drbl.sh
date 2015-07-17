@@ -11,9 +11,9 @@ sudo echo address 10.10.10.100 >> /etc/network/interfaces
 sudo echo netmask 255.255.255.0 >> /etc/network/interfaces
 sudo ifup eth0:1
 
-# only one time
-# drblsrv -i
-# drblpush -i
+# one time
+# sudo drblsrv -i
+# sudo drblpush -i
 
 # everytime
 # sudo startx
